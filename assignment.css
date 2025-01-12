@@ -7,7 +7,85 @@
     font-family: "Fira Sans";
     
 }
+header
+{
+    display: flex;
+    justify-content: center;
+}
 
+.foot
+{
+    text-align: center;
+    margin: auto;
+    margin-top:40px;
+}
+#footimg
+{
+    display: flex;
+    justify-content: center;
+}
+a
+{
+    margin: 40px 10px 40px 10px;
+}
+#footh
+{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    margin: auto;
+
+}
+.navbd
+{
+    display : flex;
+   margin-bottom: -50px;
+}
+#navbd 
+{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: -30px;
+    margin-right: 70px;
+    
+}
+#nav
+{
+    margin: auto;
+    margin-left: 670px;
+    margin-top: 60px;
+     
+    
+}
+#navs:hover
+{
+    background-color: black;
+}
+#navs
+{
+    margin: auto;
+    margin-left: 200px;
+    box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+height: 50px;
+width: 120px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+}
 body
 {
     background-color: rgb(237, 235, 235);
@@ -294,7 +372,7 @@ background: rgb(84, 144, 245);
 
 /* Recent News */
 
-#recentnews
+.recentnews
 {
     border-radius: 24px;
     width: 1400px;
@@ -303,7 +381,10 @@ background: rgb(84, 144, 245);
     margin-top: 20px;
     margin-bottom: 30px;
 }
-
+#recentnewst
+{
+    margin-bottom: -100px;
+}
 #recenttop
 {
 margin-bottom: 30px;
@@ -540,13 +621,14 @@ margin-bottom: 20px;
 #otheramount
 {
     display: flex;
-    width: 1000px;
+    width: 900px;
     height: 50px;
     justify-content: center;
     text-align: center;
     margin-left: 240px;
     margin-bottom: 40px;
     margin: auto;
+    border: none;
 }
 
 #donenowp
@@ -584,21 +666,19 @@ background: rgb(198, 228, 214);
     background: rgb(198, 228, 214);
     border-radius: 24px;
     margin: auto;
-    margin-left: auto;
-   margin-right: auto;
-   margin-bottom: auto;
     text-align: center;
-    height: 350px;
+    height: 400px;
     width: 1200px;
     margin-top: 50px;
     margin-bottom: 20px;
+    
 }
 
 #sbody
 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
@@ -606,6 +686,7 @@ background: rgb(198, 228, 214);
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+    padding-top: 20px;
    
 }
 .divp
@@ -641,7 +722,8 @@ margin-left: auto;
     width: 600px;
     margin: auto;
     margin-left: 220px;
-    text-align: center;
+    padding-left: 25px;
+    border-radius: 6px;
     border: none;
 }
 .button
@@ -674,14 +756,16 @@ border: 1px solid rgba(14, 14, 14, 0.15);
 border-radius: 16px;
 background: rgb(255, 255, 255);
 margin: auto;
+padding-left: 30px;
+padding-right: 5px;
 
 }
 #yunusbody
 {
     background-image: url("quote-bg.png");
     background-repeat: no-repeat;
-    background-size: 55px;
-    margin-left: 20px;
+    background-size: 60px;
+    border: none;
     margin: auto;
 
 }
@@ -695,7 +779,6 @@ margin: auto;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-    margin-left: 20px;
     margin-top: 30px;
 }
 
@@ -708,8 +791,7 @@ font-weight: 600;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin-left: 20px;
-margin-top: 20px;
+margin-top: 22px;
 }
 #pa
 {
@@ -720,8 +802,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin-left: 20px;
-margin-top: 10px;
+margin-top: 12px;
 }
 .icons
 {
@@ -746,4 +827,12 @@ margin-bottom: 20px;
 .icons:hover
 {
     background-color: yellow;
+}
+.footerdevider
+{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    margin-top: 15px;
+    margin-bottom: -15px;
+    
+    
 }
